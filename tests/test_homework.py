@@ -28,5 +28,5 @@ def test_01():
     assert dataframe["count"]["United Kingdom"] == 173
     assert dataframe["count"]["Italy"] == 112
 
-    if not os.path.exists("files/map.html"):
+    if not os.path.exists("files/output/map.html"):
         raise FileNotFoundError("File 'files/output/map.html' not found")
