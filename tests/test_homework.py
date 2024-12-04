@@ -4,7 +4,7 @@ import os
 
 import pandas as pd  # type: ignore
 
-from _solution.country_scientific_production import make_worldmap
+from homework.country_scientific_production import make_worldmap
 
 
 def test_01():
